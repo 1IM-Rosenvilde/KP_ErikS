@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#Header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 13%;
+    width: 100%;
+
+    display: flex;
+}
+
+#Header-Logo {
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 8%;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#Header-Buttons{
+    position: relative;
+    left: 60%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    gap: 4%;
+    align-items: center;
+}
+
+#Header-Buttons a{
+    color: white;
+    background-color: #777;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#Header-Buttons a:hover{
+    background-color: blue;
+    transition: 0.5s;
+    
+}
