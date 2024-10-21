@@ -1,80 +1,45 @@
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
 }
 
-#Header {
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#Header{
     position: fixed;
-    top: 0%;
-    left: 0%;
-    height: 10%;
-    width: 100%;
-    z-index: 10;
-    background-color: white;
     display: flex;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 240, 240);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    padding-left: 5%;
+    gap: 100px;
+    align-items: center;
 }
 
-#Header-Logo {
-    left: 0%;
-    top: 0%;
-    height: 100%;
-    width: 8%;
-
-    overflow: hidden;
-
+#Header-Logo{
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-#Header-Buttons{
-    position: relative;
-    left: 60%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-
-    gap: 4%;
     align-items: center;
+
 }
 
-#Header-Buttons a{
-    color: white;
-    background-color: #777;
-    border-radius: 20px;
-    padding: 10px;
+#Header-Logo a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 14px;
+    width: 90px;
+    height: 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    overflow: hidden;
-    transition: 0.5s;
-}
-
-#Header-Buttons a:hover{
-    background-color: blue;
-    transition: 0.5s;
-    
-}
-
-main{
-    position: absolute;
-    top: 10%;
-    width: 100%;
-}
-
-#background-img{
-    position: inherit;
-    width: 100%;
-}
-
-#about-me{
-    position: absolute;
-    left: 15%;
-    width: 70%;
-    top: 50px;
-    height: 1000px;
-    background-color: white;
-    border-radius: 10px;
+    font-weight: bold;
+    border-radius: 100px;
+    border-color: black;
+    color: black;
 }
